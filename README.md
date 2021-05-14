@@ -14,14 +14,14 @@ This repo contains some layouts I am building with CSS Grid and CSS Flexbox to r
 The image below illustrate the general structure of the dashboard in desktop view.
 It uses the following elements to build the UI:
 
-nav 
-main 
-  header
-  section 
-  div 
-    header 
-    table 
-aside
+- nav 
+- main 
+  - header
+  - section 
+  - div 
+    - header 
+    - table 
+- aside
    
 
 ![Dashboard](./screen.png)
