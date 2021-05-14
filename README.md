@@ -26,3 +26,9 @@ It uses the following elements to build the UI:
    
 
 ![Dashboard](./screen.png)
+
+
+## Homepage 
+
+This is a desktop homepage sample.
+![Dashboard](./home.png)
