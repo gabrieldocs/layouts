@@ -19,10 +19,14 @@ nav  {
     grid-column-end: 2;
     
     height: 100vh;
+
+    .logo { 
+        margin-left: 12px;
+    }
   
     // padding: 50px;
     
-
+    
     // border: solid red;
     // background-color: navy;
 
@@ -165,6 +169,8 @@ aside  {
     grid-column-end: 7;
 
     // height: 100vh;
+
+    // background-color: #ddd;
 
     display: flex;
     flex-direction: column;

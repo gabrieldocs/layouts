@@ -19,6 +19,14 @@ nav {
   flex-direction: column;
 }
 
+nav .logo {
+  margin-left: 12px;
+}
+
+nav .user {
+  display: none;
+}
+
 nav button {
   padding: 12px 8px;
   border: solid 3px white;
@@ -36,6 +44,13 @@ nav button:hover {
   margin-bottom: 12px;
   box-shadow: 3px 3px 0px black;
   border-radius: 4px;
+}
+
+@media (max-width: 1053px) {
+  main section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
 }
 
 main {
@@ -117,7 +132,6 @@ table .action {
 aside {
   grid-column-start: 6;
   grid-column-end: 7;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -150,5 +164,68 @@ aside .card img {
   border-radius: 50px;
   object-fit: cover;
   margin-right: 10%;
+}
+
+@media (max-width: 901px) {
+  body {
+    display: grid;
+    grid-template-rows: 200px !important;
+  }
+  main {
+    padding: 5% !important;
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    min-height: 100vh;
+    padding: 0 5% !important;
+  }
+  main section {
+    display: none !important;
+  }
+  aside {
+    padding: 5%;
+    height: 300px;
+    grid-column-start: 2;
+    grid-column-end: 7;
+  }
+  aside .card {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    display: grid;
+    grid-template-rows: 100px !important;
+  }
+  nav {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    height: 100px !important;
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+  }
+  nav .user {
+    display: block !important;
+  }
+  nav .menu {
+    display: none;
+  }
+  main {
+    grid-column-start: 1 !important;
+    grid-column-end: 7 !important;
+    min-height: 100vh;
+    padding: 0 5% !important;
+  }
+  aside {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    height: 300px;
+    padding: 0 0 !important;
+    padding: 0 5% !important;
+  }
 }
 /*# sourceMappingURL=index.css.map */
