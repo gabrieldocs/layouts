@@ -2,8 +2,9 @@
 
 ## Author 
 
-Lucas G. Santos 
-Computer Engineer
+Lucas G. Guilherme dos Santos 
+
+Computer Engineer / Fullstack developer
 
 ## About
 
