@@ -32,6 +32,7 @@ nav  {
 
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     // align-items: flex-start;
 
     .user { 
@@ -113,9 +114,21 @@ main  {
 
             display: flex;
             flex-direction: column;
+            justify-content: space-between;
+            min-height: 325px;
+            button { 
+                border: solid black;
+                padding: 12px 24px;
+                border-radius: 4px;
+                box-shadow: 3px 3px 0px black;
+
+                font-size: 1.1em;
+                background-color: white;
+            }
 
             &:hover { 
                 background-color: rgb(249, 248, 255);
+                cursor: pointer;
                 // cursor: pointer;
                 // background-color: red;
                 // grid-column-start: 1;

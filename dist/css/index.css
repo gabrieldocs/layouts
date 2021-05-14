@@ -17,6 +17,7 @@ nav {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 nav .logo {
@@ -82,10 +83,22 @@ main section .card {
   padding: 12px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  min-height: 325px;
+}
+
+main section .card button {
+  border: solid black;
+  padding: 12px 24px;
+  border-radius: 4px;
+  box-shadow: 3px 3px 0px black;
+  font-size: 1.1em;
+  background-color: white;
 }
 
 main section .card:hover {
   background-color: #f9f8ff;
+  cursor: pointer;
 }
 
 main section .card img {
