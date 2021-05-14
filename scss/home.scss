@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400&display=swap');
+
+body { 
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 100px;
+    grid-gap: 12px;
+
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+nav { 
+    grid-column-start: 1;
+    grid-column-end: 7;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;        
+    button { 
+        cursor: pointer;
+        padding: 12px 8px;
+        border: solid 3px;
+        margin-bottom: 12px;
+        box-shadow: 3px 3px 0px black;
+        border-radius: 4px;
+        font-size: 1em;
+    }
+}
+
+menu { 
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    // border: solid red;
+
+    ul { 
+        padding: 0;        
+        li { 
+            list-style: none;
+            margin-bottom: 12px;
+        }
+    }
+
+}
+
+a { 
+    color: rgb(207, 79, 57);
+    // padding-bottom: 12px;
+    // text-decoration: dotted 1px red;
+}
+
+main { 
+    grid-column-start: 2;
+    grid-column-end: 6;
+
+    header { 
+        padding: 12px;
+    }
+    .billboard { 
+        grid-column-start: 1;
+        grid-column-start: 5;
+        // margin: 12px;
+        padding: 12px;
+        // border: solid red;
+        // background-color: rgb(239, 246, 255);
+        margin: 12px;
+        // border-radius: 12px;
+        // min-height: 40vh;
+
+        border: solid 3px;
+        // margin-bottom: 12px;
+        background-color: white;
+        box-shadow: 3px 3px 0px black;
+
+
+    }
+    section {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+    
+        .card {             
+            margin: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            min-height: 300px;
+            padding: 12px;
+            border: solid 3px;
+            margin-bottom: 12px;
+            background-color: white;
+            box-shadow: 3px 3px 0px black;
+
+            button {
+                width: 100%;
+            }
+        }       
+    }
+}
+
+button { 
+    cursor: pointer;
+    padding: 12px 8px;
+    border: solid 3px;
+    margin-bottom: 12px;
+    background-color: white;
+    box-shadow: 3px 3px 0px black;
+    border-radius: 4px;
+    font-size: 1em;
+    margin-right: 12px;
+}
+
+.muted { 
+    border: none;
+    padding: none;
+    box-shadow: none;
+}
+
+aside { 
+    grid-column-start: 6;
+    grid-column-end: -1;
+    // border: solid red;
+
+    padding: 12px;
+}

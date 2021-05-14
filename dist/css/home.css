@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400&display=swap");
+body {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 100px;
+  grid-gap: 12px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+nav {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav button {
+  cursor: pointer;
+  padding: 12px 8px;
+  border: solid 3px;
+  margin-bottom: 12px;
+  box-shadow: 3px 3px 0px black;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+menu {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+menu ul {
+  padding: 0;
+}
+
+menu ul li {
+  list-style: none;
+  margin-bottom: 12px;
+}
+
+a {
+  color: #cf4f39;
+}
+
+main {
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+
+main header {
+  padding: 12px;
+}
+
+main .billboard {
+  grid-column-start: 1;
+  grid-column-start: 5;
+  padding: 12px;
+  margin: 12px;
+  border: solid 3px;
+  background-color: white;
+  box-shadow: 3px 3px 0px black;
+}
+
+main section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+}
+
+main section .card {
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 300px;
+  padding: 12px;
+  border: solid 3px;
+  margin-bottom: 12px;
+  background-color: white;
+  box-shadow: 3px 3px 0px black;
+}
+
+main section .card button {
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  padding: 12px 8px;
+  border: solid 3px;
+  margin-bottom: 12px;
+  background-color: white;
+  box-shadow: 3px 3px 0px black;
+  border-radius: 4px;
+  font-size: 1em;
+  margin-right: 12px;
+}
+
+.muted {
+  border: none;
+  padding: none;
+  box-shadow: none;
+}
+
+aside {
+  grid-column-start: 6;
+  grid-column-end: -1;
+  padding: 12px;
+}
+/*# sourceMappingURL=home.css.map */
