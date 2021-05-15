@@ -76,9 +76,8 @@ main section {
 }
 
 main section .card {
-  border: solid black;
-  border-radius: 4px;
-  box-shadow: 3px 3px 0px black;
+  border: solid thin #ddd;
+  border-radius: 12px;
   margin: 12px;
   padding: 12px;
   display: flex;
@@ -88,10 +87,9 @@ main section .card {
 }
 
 main section .card button {
-  border: solid black;
+  border: solid thin #ddd;
   padding: 12px 24px;
-  border-radius: 4px;
-  box-shadow: 3px 3px 0px black;
+  border-radius: 24px;
   font-size: 1.1em;
   background-color: white;
 }
@@ -106,7 +104,7 @@ main section .card img {
   height: 70%;
   background-color: #434343;
   border: none;
-  border-radius: 4px;
+  border-radius: 12px;
   object-fit: cover;
 }
 

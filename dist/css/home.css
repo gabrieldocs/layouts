@@ -112,4 +112,33 @@ aside {
   grid-column-end: -1;
   padding: 12px;
 }
+
+@media (max-width: 992px) {
+  menu {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    display: none;
+  }
+  main {
+    grid-column-start: 1;
+    grid-column-end: 7;
+  }
+  main section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+  }
+  aside {
+    grid-column-start: 1;
+    grid-column-end: 7;
+  }
+}
+
+@media (max-width: 667px) {
+  main section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+}
 /*# sourceMappingURL=home.css.map */
