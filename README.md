@@ -19,7 +19,13 @@ This repo contains some work I am doing with CSS Grid and CSS Flexbox to replace
 The components appearance is not its final. The idea behind the project is to provide prebuilt layouts and UI organization. 
 Cards, buttons, Font-families and more about the design system can be implemented by the interested-part. 
 
-This is still a very recent idea, buit I intend to find colaborators in order to provide a VueJS and ReactJS version of the project as it fits as a boilerplate to many different projects and purposes. Feel free to colaborate. 
+
+### Contributing 
+We welcome contributions!
+
+📥 Pull requests and 🌟 Stars are always welcome.
+
+This is still a very recent idea, buit I intend to find colaborators in order to provide a VueJS and ReactJS version of the project as it fits as a boilerplate to many different projects and purposes. 
 
 
 
