@@ -2,12 +2,15 @@
 
 Building Comprehensive and Abrangent Layouts for the web. 
 
+<hr>
+
 ## Author 
 
 Lucas Gabriel. Guilherme dos Santos 
 
-Computer Engineer / Fullstack developer
-lucas.gabriel@uninta.edu.br / santosworkers@gmail.com 
+Computer Engineer at Uninta
+@lucgbrl @gabrieldocs
+
 
 ## About
 
@@ -18,12 +21,16 @@ Cards, buttons, Font-families and more about the design system can be implemente
 
 ## Instalation 
 
+
+### Import to HTML
 To install Layouts CSS you need to link the css file to the html or js (if you're using ReactJS you probably are familiar with imports).
 
 ```
 <link rel="stylesheet" href="dist/css/home.css">
 
 ```
+### Import into a ReactJS component file 
+
 The ReactJS style is the well-known ```import './location/to/file.css';``` : 
 
 ```javascript 
@@ -46,6 +53,26 @@ class HomePage extends Component {
 ```
 
 That's it! We are now all set. 
+
+
+### Styles
+
+This project aims to provide a compiled layout solution, in order to enable developers and webdesigners to quickly setup any content in a giver pattern, so It does not cover complex UI elements such as cards, billboards, chips, buttons...anyway, but we have a few recommendations about typography and spacing.  
+
+#### Typography
+
+A nice font-family is 'Noto Sans JP'. The theme/_text.scss_ folders contains a import from Google Fonts that can be rewritten if needed. 
+A convention on my layout was that h1 elements are 3em and all other heading elements get to keep their traditional size. 
+
+#### Spacing 
+
+When in need of vertical and horizontal padding use 12px 24px.
+When in need of a container padding 12px looks good for most cases. 
+
+
+#### Colors 
+
+Choose nice contrasting colors when sketching yout layout / design system, some cool projects like...give you nice collections of colors and palletes in order to be accessible and harmonic. 
 
 
 ## Version 
