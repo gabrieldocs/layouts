@@ -92,36 +92,6 @@ The version name will follow the YYYY-MM-DD-Major-Minor-Correction convention.
 
 Example: 2021.05.12.1.0.0 for the current alpha version. 
 
-## Layout 01 - Dashboard
-<hr>
-The image below illustrate the general structure of the dashboard in desktop view.
-It uses the following elements to build the UI:
-
-  - nav 
-  - main 
-    - header
-    - section 
-    - div 
-      - header 
-      - table 
-  - aside
-   
-
-## Layout 02 - Homepage 
-<hr>
-
-This is a desktop homepage sample based on Cards and Billboard Captions.
-It uses the following elements to structure the UI:
-- nav 
-- main
-  - header  
-  - section 
-  - div
-    -  header 
-    -  div 
-      -  div
-      -  div
-
 ## Copyright and license
 Code and documentation copyright 2021 L.G.G.Santos. Code released under the MIT License. Docs released under Creative Commons.
 
