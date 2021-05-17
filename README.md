@@ -5,7 +5,6 @@ A collection of responsive layouts for developers in a hurry.
 
 "Building Comprehensive and Abrangent Layouts for the web"
 
----
 ## About
 
 This repo contains some work I am doing with CSS Grid and CSS Flexbox to replace old Bootstrap/BulmaCSS pages. The project objective is very simple, but I am trying to make it compreehensive and abragent in order to fit desktop and mobile version and to have some flexibility on my development workflow. 
@@ -76,7 +75,6 @@ The version name will follow the YYYY-MM-DD-Major-Minor-Correction convention.
 
 Example: 2021.05.12.1.0.0 for the current alpha version. 
 
----
 ### Contributing 
 We welcome contributions!
 
@@ -90,12 +88,12 @@ Maintenance: Lucas Gabriel. Guilherme dos Santos
 
 Computer Engineer
 
----  
 ### Stay in touch 
 
 - [twitter](https://twitter.com/lucgbrl)
 
 ## Copyright and license
 Code and documentation copyright 2021 Gabriel Santos. 
+
 Code released under the MIT License. Docs released under Creative Commons.
 
