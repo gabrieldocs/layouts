@@ -2,32 +2,16 @@
 
 A collection of responsive layouts for developers in a hurry. 
 
-<hr>
-
-## Author 
-
-Lucas Gabriel. Guilherme dos Santos 
-Computer Engineer at Uninta
-@lucgbrl @gabrieldocs
 
 "Building Comprehensive and Abrangent Layouts for the web"
 
+---
 ## About
 
 This repo contains some work I am doing with CSS Grid and CSS Flexbox to replace old Bootstrap/BulmaCSS pages. The project objective is very simple, but I am trying to make it compreehensive and abragent in order to fit desktop and mobile version and to have some flexibility on my development workflow. 
 
 The components appearance is not its final. The idea behind the project is to provide prebuilt layouts and UI organization. 
 Cards, buttons, Font-families and more about the design system can be implemented by the interested-part. 
-
-
-### Contributing 
-We welcome contributions!
-
-📥 Pull requests and 🌟 Stars are always welcome.
-
-This is still a very recent idea, buit I intend to find colaborators in order to provide a VueJS and ReactJS version of the project as it fits as a boilerplate to many different projects and purposes. 
-
-
 
 ## Instalation 
 
@@ -92,6 +76,26 @@ The version name will follow the YYYY-MM-DD-Major-Minor-Correction convention.
 
 Example: 2021.05.12.1.0.0 for the current alpha version. 
 
+---
+### Contributing 
+We welcome contributions!
+
+📥 Pull requests and 🌟 Stars are always welcome.
+
+This is still a very recent idea, buit I intend to find colaborators in order to provide a VueJS and ReactJS version of the project as it fits as a boilerplate to many different projects and purposes. 
+
+
+
+Maintenance: Lucas Gabriel. Guilherme dos Santos 
+
+Computer Engineer
+
+---  
+### Stay in touch 
+
+- [twitter](https://twitter.com/lucgbrl)
+
 ## Copyright and license
-Code and documentation copyright 2021 L.G.G.Santos. Code released under the MIT License. Docs released under Creative Commons.
+Code and documentation copyright 2021 Gabriel Santos. 
+Code released under the MIT License. Docs released under Creative Commons.
 
