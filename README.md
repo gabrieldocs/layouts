@@ -68,7 +68,7 @@ When in need of a container padding 12px looks good for most cases.
 Choose nice contrasting colors when sketching yout layout / design system, some cool projects like...give you nice collections of colors and palletes in order to be accessible and harmonic. 
 
 
-## Version 
+### Version 
 <hr>
 
 The version name will follow the YYYY-MM-DD-Major-Minor-Correction convention. 
@@ -92,7 +92,7 @@ Computer Engineer
 
 - [twitter](https://twitter.com/lucgbrl)
 
-## Copyright and license
+### Copyright and license
 Code and documentation copyright 2021 Gabriel Santos. 
 
 Code released under the MIT License. Docs released under Creative Commons.
